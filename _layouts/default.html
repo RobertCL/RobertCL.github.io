@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width">
+
+		<!-- syntax highlighting CSS -->
+		<link rel="stylesheet" href="/css/syntax.css">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/css/style.css">
+
+	</head>
+    <body>
+
+
+<div id="wrapper">
+<!--
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">robertlongbottom.com</a></h1>
+				<p>Template Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a></p>
+			</div>
+		</div>
+	</div>
+-->
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li {% if page.url == "/index.html" %}class="current_page_item"{% endif %}><a href="/">Home</a></li>
+			<li {% if page.url == "/code/index.html" %}class="current_page_item"{% endif %}><a href="/code">Code</a></li>
+			<li {% if page.url == "/electronics/index.html" %}class="current_page_item"{% endif %}><a href="/electronics">Electronics</a></li>
+			<li {% if page.url == "/astronomy/index.html" %}class="current_page_item"{% endif %}><a href="/astronomy">Astronomy</a></li>
+			<li {% if page.url == "/about/index.html" %}class="current_page_item"{% endif %}><a href="/about">About</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+
+					{{ content }}
+
+				</div>
+				<!-- end #content -->
+
+				<div id="sidebar">
+					<ul>
+						<li>
+							<h2>Code</h2>
+                            <ul>
+                                {% for post in site.categories.code %}
+                                    <li>&raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% endfor %}
+							</ul>
+
+						</li>
+						<li>
+							<h2>Electronics</h2>
+							<ul>
+							    {% for post in site.categories.electronics %}
+							      <li>&raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+							    {% endfor %}
+							</ul>
+						</li>
+						<li>
+							<h2>Astronomy</h2>
+                            <ul>
+                                {% for post in site.categories.astronomy %}
+                                    <li>&raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+						</li>
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page --> 
+</div>
+<div id="footer">
+	<p>Copyright (c) robertlongbottom.com. All rights reserved.</p>
+</div>
+<!-- end #footer -->
+
+
+    </body>
+</html>
