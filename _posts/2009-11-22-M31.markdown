@@ -1,0 +1,9 @@
+---
+layout: post
+title:  M31 - Andromeda Galaxy
+date:   2009-11-22
+categories: astronomy
+---
+
+[![M31](/astronomy/2009_11_20_M31_thumb.jpg)](/astronomy/2009_11_20_M31.jpg)
+

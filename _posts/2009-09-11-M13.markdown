@@ -1,0 +1,12 @@
+---
+layout: post
+title:  A better M13
+date:   2009-09-11
+categories: astronomy
+---
+
+<!-- more -->
+
+
+[![M13](/astronomy/2009_09_11_M13_thumb.jpg)](/astronomy/2009_09_11_M13.jpg)
+

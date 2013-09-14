@@ -1,0 +1,9 @@
+---
+layout: post
+title:  M42 - Great Orion Nebula
+date:   2010-02-21
+categories: astronomy
+---
+
+[![M42](/astronomy/2009_12_20_M42_thumb.jpg)](/astronomy/2009_12_20_M42.jpg)
+

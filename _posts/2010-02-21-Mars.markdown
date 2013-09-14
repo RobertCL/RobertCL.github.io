@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Mars
+date:   2010-02-21
+categories: astronomy
+---
+
+Mars, taken on a particularly good night.  
+Combination of colour data from a Philips ToUCam webcam and luminosity data from a QHY5 guide camera.  
+200% zoom applied post processing.
+
+[![Mars](/astronomy/2010_01_29_Mars_200percent.png)](/astronomy/2010_01_29_Mars_200percent.png)
+

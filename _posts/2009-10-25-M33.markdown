@@ -1,0 +1,9 @@
+---
+layout: post
+title:  M33 - The Triangulum Galaxy
+date:   2009-10-25
+categories: astronomy
+---
+
+[![M33](/astronomy/2009_10_12_M33_thumb.jpg)](/astronomy/2009_10_12_M33.jpg)
+

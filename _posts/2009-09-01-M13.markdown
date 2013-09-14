@@ -1,0 +1,20 @@
+---
+layout: post
+title:  M13 - Great Globular Cluster in Hercules
+date:   2009-09-01
+categories: astronomy
+---
+
+You can also see NGC6207 in the top right hand corner of the full image.
+
+[![M13](/astronomy/2009_08_22_M13_thumb.jpg)](/astronomy/2009_08_22_M13.jpg)
+
+Details:
+
+- 24th Aug 2009 00:20
+
+- 10 exposures @ ISO800, total exposure 3m20s
+
+- Celestron C6, Canon 450D SLR, Unguided
+
+- Stacked with DeepSkyStacker
