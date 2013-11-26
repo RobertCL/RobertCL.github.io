@@ -31,7 +31,7 @@
 	<div id="menu">
 		<ul>
 			<li {% if page.url == "/index.html" %}class="current_page_item"{% endif %}><a href="/">Home</a></li>
-			<li {% if page.url == "/code/index.html" %}class="current_page_item"{% endif %}><a href="/code">Code</a></li>
+			<li {% if page.url == "/maths/index.html" %}class="current_page_item"{% endif %}><a href="/maths">Maths</a></li>
 			<li {% if page.url == "/electronics/index.html" %}class="current_page_item"{% endif %}><a href="/electronics">Electronics</a></li>
 			<li {% if page.url == "/astronomy/index.html" %}class="current_page_item"{% endif %}><a href="/astronomy">Astronomy</a></li>
 			<li {% if page.url == "/about/index.html" %}class="current_page_item"{% endif %}><a href="/about">About</a></li>
@@ -51,9 +51,9 @@
 				<div id="sidebar">
 					<ul>
 						<li>
-							<h2>Code</h2>
+							<h2>Maths</h2>
                             <ul>
-                                {% for post in site.categories.code %}
+                                {% for post in site.categories.maths %}
                                     <li>&raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
                                 {% endfor %}
 							</ul>

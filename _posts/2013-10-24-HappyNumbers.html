@@ -1,0 +1,22 @@
+---
+layout: post
+title:  Happy Numbers
+date:   2013-10-24
+categories: maths
+excerpt: Happy numbers calculator
+---
+
+<script src="/scripts/jquery-2.0.3.min.js"></script>
+<script src="/scripts/happyNumbers.js"></script>
+
+<p>A <a href="http://en.wikipedia.org/wiki/Happy_number">Happy Number</a> is one whose
+digits squared and summed repeatedly eventually equals 1.  You can use the javascript
+based checker below to see if a number is happy or not.  It's an interesting little
+exercise in writing a recursive program.</p>
+
+<form action="#" style="padding: 10px;">
+	Check if a number is happy:
+	<input type="text" id="inValue" value="34" style="width: 75px;"/>
+	<input type="submit" id="btnCheck" value="Check" />
+</form>
+<div style="font-family: 'Courier New'; padding: 10px; " id="result"></div>
