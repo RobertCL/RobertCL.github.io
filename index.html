@@ -3,11 +3,11 @@ layout: default
 title: robertlongbottom.com
 ---
 
-<div id="home">
 
 <p>This is the personal homepage of <a href="http://robertlongbottom.com">Robert Longbottom</a> a  
 	software developer, <a href="/electronics">electronics</a> enthusiast, 
-	<a href="http://swindon.hackspace.org.uk">hacker</a> and amateur <a href="/astronomy">astronomer</a>.</p>
+	<a href="http://swindon.hackspace.org.uk">hacker</a> (in the good sense of the word)
+	and amateur <a href="/astronomy">astronomer</a>.</p>
 
 <p>Social media links :
 	<a href="http://twitter.com/Astrofraggle">@AstroFraggle</a> 
@@ -16,22 +16,4 @@ title: robertlongbottom.com
 
 <p>&nbsp;</p>
 
-<h1>Latest posts</h1>
-<hr/>
-    {% for post in site.posts limit:3 %}
 
-                <div class="post">
-                        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <p class="meta">Posted on {{ post.date | date_to_string }}
-                                &nbsp;&bull;&nbsp; <a href="{{ post.url }}" class="permalink">Full article</a></p>
-
-                        <div class="entry">
-                                <a href="{{ post.url }}" class="image image-full"><img src="{{ post.image }}" /></a>
-                                {{ post.excerpt }}
-                                <a class="meta" href="{{ post.url }}" class="permalink">...read more</a>
-                        </div>
-                </div>
-
-    {% endfor %}
-
-</div>

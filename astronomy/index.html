@@ -8,9 +8,7 @@ title: robertlongbottom.com
     {% for post in site.categories.astronomy %}
 
 		<div class="post">
-			<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			<p class="meta">Posted on {{ post.date | date_to_string }}
-				&nbsp;&bull;&nbsp; <a href="{{ post.url }}" class="permalink">Full article</a></p>
+			<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
 			<div class="entry">
 				<div class="image-full"><a href="{{ post.url }}"><img src="{{ post.image }}" /></a></div>
